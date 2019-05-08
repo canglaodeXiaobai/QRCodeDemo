@@ -40,8 +40,9 @@ public class CreateQRCode {
         // 设置边距，默认是5
         hints.put(EncodeHintType.MARGIN, 2);
 
+        // 生成二维码
         try {
-            // 生成二维码
+
             // new MultiFormatWriter().encode("内容", 格式, 宽度, 高度)
             BitMatrix bitMatrix = new MultiFormatWriter().encode(contents, BarcodeFormat.QR_CODE, width, height);
 
