@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a8bcf5-e3dc-4bae-9197-da1195698ffb" name="Default Changelist" comment="代码提交，第一次生成简单的二维码">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qrcode/demo/ReadQRCode.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,10 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/CreateQRCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="40" column="44" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="175">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#506#530#0" expanded="true" />
@@ -73,10 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/ReadQRCode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/ReadQRCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+            <state relative-caret-position="243">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +127,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/qrcode/entity/EntityDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qrcode/demo/ReadQRCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qrcode/zxing/demo/ReadQRCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/CreateQRCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/ReadQRCode.java" />
       </list>
     </option>
   </component>
@@ -150,8 +155,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1041" />
-    <option name="y" value="79" />
+    <option name="x" value="616" />
+    <option name="y" value="86" />
     <option name="width" value="1296" />
     <option name="height" value="995" />
   </component>
@@ -218,7 +223,14 @@
             </path>
             <path>
               <item name="mavenQRCodeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="QRCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="zxing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557300350613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557301123071" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../newQR" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -254,11 +266,11 @@
   </component>
   <component name="RunManager" selected="Application.ReadQRCode">
     <configuration name="CreateQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qrcode.demo.CreateQRCode" />
+      <option name="MAIN_CLASS_NAME" value="com.qrcode.demo.zxing.CreateQRCode" />
       <module name="QRCodeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qrcode.demo.*" />
+          <option name="PATTERN" value="com.qrcode.demo.zxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +279,11 @@
       </method>
     </configuration>
     <configuration name="ReadQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qrcode.demo.ReadQRCode" />
+      <option name="MAIN_CLASS_NAME" value="com.qrcode.demo.zxing.ReadQRCode" />
       <module name="QRCodeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qrcode.demo.*" />
+          <option name="PATTERN" value="com.qrcode.demo.zxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,15 +312,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557287243688</updated>
-      <workItem from="1557287250139" duration="6079000" />
+      <workItem from="1557287250139" duration="6928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6079000" />
+    <option name="totallyTimeSpent" value="6928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1041" y="79" width="1296" height="995" extended-state="0" />
+    <frame x="616" y="86" width="1296" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -316,7 +328,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20064725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20064725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -325,7 +337,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,10 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/CreateQRCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/CreateQRCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="40" column="44" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="175">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#506#530#0" expanded="true" />
@@ -403,10 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/ReadQRCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qrcode/demo/zxing/ReadQRCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        <state relative-caret-position="243">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
