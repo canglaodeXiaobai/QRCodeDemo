@@ -25,7 +25,9 @@
             <artifactId>javase</artifactId>
             <version>${zxing.version}</version>
         </dependency>
+
     </dependencies>
+
 
     <build>
         <plugins>
